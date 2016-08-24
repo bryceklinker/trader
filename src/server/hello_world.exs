@@ -21,3 +21,7 @@ IO.puts hd(list)
 IO.puts length(tl(list))
 
 IO.puts 'hello' == "hello"
+
+IO.puts elem({ :ok, "Stuff" }, 0)
+
+IO.puts elem({ :ok, "Stuff" }, 1)
