@@ -175,3 +175,6 @@ people = [
 ]
 
 IO.puts List.first(people[:jack].languages)
+
+updated_people = update_in people[:mary].languages, &List.delete(&1, "Javascript")
+IO.puts List.first(updated_people[:mary].languages)
