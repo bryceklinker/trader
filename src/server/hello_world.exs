@@ -168,3 +168,10 @@ IO.puts simple_map[:c] == nil
 better_map = %{ :a => 65, :b => 8, :c => 98 }
 IO.puts Map.get(better_map, :a)
 IO.puts better_map.c
+
+people = [
+    jack: %{ name: "Jack", age: 56, languages: ["Elixir", "Spanish", "English" ]},
+    mary: %{ name: "Mary", age: 23, languages: ["Javascript", "English", "Ract" ]}
+]
+
+IO.puts List.first(people[:jack].languages)
