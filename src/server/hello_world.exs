@@ -114,3 +114,7 @@ end)
 
 str = "Hello"
 IO.puts byte_size(str)
+
+bigstr = "hełło"
+IO.puts byte_size(bigstr)
+IO.puts String.length(bigstr)
