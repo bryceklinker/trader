@@ -39,3 +39,6 @@ IO.puts false or is_atom(:false)
 
 IO.puts false and raise("This won't actually happen")
 IO.puts true or raise("Again this won't actually happen")
+
+IO.puts 1 == 1.0
+IO.puts 1 === 1.0
