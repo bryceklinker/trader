@@ -30,3 +30,5 @@ tuple = { :OKY, :SMOKY }
 tuple = put_elem(tuple, 1, :DOKY)
 
 IO.puts elem(tuple, 1)
+
+IO.puts "Hello" <> " " <>"World"
