@@ -76,3 +76,11 @@ case {1, 2, 3} do
     _ ->
         IO.puts "Matched _"
 end
+
+y = 5
+case 4 do 
+    ^y ->
+        IO.puts "Matched y"
+    _ -> 
+        IO.puts "Matched _"
+end
