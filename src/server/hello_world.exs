@@ -55,3 +55,5 @@ IO.puts c
 
 { :ok, result } = { :ok, 15}
 IO.puts result
+
+{ :ok, result } = { :error, "Something happened" }
