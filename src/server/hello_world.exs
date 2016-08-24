@@ -96,6 +96,14 @@ f = fn
     x, y when x > 0 -> x + y
     x, y -> x * y
 end
-
 IO.puts f.(6, 4)
 IO.puts f.(-1, 5)
+
+cond do
+    2 + 4 == 5 ->
+        IO.puts "Matched cond 2 + 4 == 5"
+    2 * 2 == 3 ->
+        IO.puts "Matched cond 2 * 2 == 3"
+    1 + 1 == 2 ->
+        IO.puts "Matched cond 1 + 1 == 2"
+end
