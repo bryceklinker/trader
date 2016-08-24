@@ -150,3 +150,6 @@ IO.puts list_tuples[:a]
 
 list_tuples_simple = [ a: 5, b: 6 ]
 IO.puts list_tuples == list_tuples_simple
+
+big_list = list_tuples ++ [c: 7, d: 9]
+IO.puts big_list[:d]
