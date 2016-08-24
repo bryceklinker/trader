@@ -134,3 +134,6 @@ IO.puts over_size
 
 utf8_size = <<256 :: utf8>>
 IO.puts utf8_size
+
+<<1, 2, x>> = <<1, 2, 6>>
+IO.puts x
