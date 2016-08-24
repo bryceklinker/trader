@@ -65,5 +65,5 @@ IO.puts c
 IO.puts head
 IO.puts hd(tail)
 
-y = 1
-IO.puts ^y = 2
+[h | _] = [2, 3, 7, 9]
+IO.puts h
