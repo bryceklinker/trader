@@ -147,3 +147,6 @@ IO.puts is_list(hello_chars)
 
 list_tuples = [ {:a, 5}, {:b, 6} ]
 IO.puts list_tuples[:a]
+
+list_tuples_simple = [ a: 5, b: 6 ]
+IO.puts list_tuples == list_tuples_simple
