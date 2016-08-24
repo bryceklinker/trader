@@ -32,3 +32,7 @@ tuple = put_elem(tuple, 1, :DOKY)
 IO.puts elem(tuple, 1)
 
 IO.puts "Hello" <> " " <>"World"
+
+IO.puts false and false
+
+IO.puts false or is_atom(:false)
