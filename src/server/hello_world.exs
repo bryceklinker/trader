@@ -60,3 +60,8 @@ IO.puts result
 IO.puts a
 IO.puts b
 IO.puts c
+
+[head | tail] = [ 6, 7, 1 ]
+IO.puts head
+IO.puts hd(tail)
+IO.puts tl(tail)
