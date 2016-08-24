@@ -122,3 +122,6 @@ IO.puts String.length(bigstring)
 bitstring = <<4, 3, 2>>
 IO.puts byte_size(bitstring)
 IO.puts String.valid?(bitstring)
+
+cool_concat = "hełło" <> <<123, 125>>
+IO.puts(cool_concat)
