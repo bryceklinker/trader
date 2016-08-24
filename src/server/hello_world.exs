@@ -126,5 +126,8 @@ IO.puts String.valid?(bitstring)
 cool_concat = "hełło" <> <<123, 125>>
 IO.puts(cool_concat)
 
-normal_size = <<255>>
-IO.puts String.length(normal_size)
+normal_size = <<0>>
+IO.puts normal_size
+
+over_size = <<256>>
+IO.puts over_size
