@@ -19,3 +19,5 @@ IO.puts length [7, 5, 4] ++ [8, 4, 3]
 IO.puts hd(list)
 
 IO.puts length(tl(list))
+
+IO.puts 'hello' == "hello"
