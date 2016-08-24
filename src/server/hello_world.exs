@@ -36,3 +36,6 @@ IO.puts "Hello" <> " " <>"World"
 IO.puts false and false
 
 IO.puts false or is_atom(:false)
+
+IO.puts false and raise("This won't actually happen")
+IO.puts true or raise("Again this won't actually happen")
