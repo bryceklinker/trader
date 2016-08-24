@@ -52,3 +52,6 @@ IO.puts 1 = x
 IO.puts a
 IO.puts b
 IO.puts c
+
+{ :ok, result } = { :ok, 15}
+IO.puts result
