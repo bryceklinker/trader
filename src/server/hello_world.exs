@@ -159,3 +159,7 @@ IO.puts first
 
 second = if(false, [do: :this, else: :that])
 IO.puts second
+
+simple_map = %{ :a => 5, 2 => :b}
+IO.puts simple_map[:a]
+IO.puts simple_map[2]
