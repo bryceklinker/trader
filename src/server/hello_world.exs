@@ -137,3 +137,6 @@ IO.puts utf8_size
 
 <<1, 2, x>> = <<1, 2, 6>>
 IO.puts x
+
+"he" <> rest = "hello"
+IO.puts rest
