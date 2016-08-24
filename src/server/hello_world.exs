@@ -42,3 +42,5 @@ IO.puts true or raise("Again this won't actually happen")
 
 IO.puts 1 == 1.0
 IO.puts 1 === 1.0
+
+IO.puts 1 < :something
