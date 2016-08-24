@@ -111,3 +111,6 @@ end
 IO.puts is_number(if true do
     1 + 2 
 end)
+
+str = "Hello"
+IO.puts byte_size(str)
