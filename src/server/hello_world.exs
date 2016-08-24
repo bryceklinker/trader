@@ -44,3 +44,7 @@ IO.puts 1 == 1.0
 IO.puts 1 === 1.0
 
 IO.puts 1 < :something
+
+x = 1
+IO.puts 1 = x
+IO.puts 2 = x
