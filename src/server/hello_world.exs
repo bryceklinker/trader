@@ -112,9 +112,13 @@ IO.puts is_number(if true do
     1 + 2 
 end)
 
-str = "Hello"
-IO.puts byte_size(str)
+string = "Hello"
+IO.puts byte_size(string)
 
-bigstr = "hełło"
-IO.puts byte_size(bigstr)
-IO.puts String.length(bigstr)
+bigstring = "hełło"
+IO.puts byte_size(bigstring)
+IO.puts String.length(bigstring)
+
+bitstring = <<4, 3, 2>>
+IO.puts byte_size(bitstring)
+IO.puts String.valid?(bitstring)
