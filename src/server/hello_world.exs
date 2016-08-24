@@ -144,3 +144,6 @@ IO.puts rest
 hello_chars = 'Hello'
 IO.puts hello_chars
 IO.puts is_list(hello_chars)
+
+list_tuples = [ {:a, 5}, {:b, 6} ]
+IO.puts list_tuples[:a]
