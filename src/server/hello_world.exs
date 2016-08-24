@@ -131,3 +131,6 @@ IO.puts normal_size
 
 over_size = <<256>>
 IO.puts over_size
+
+utf8_size = <<256 :: utf8>>
+IO.puts utf8_size
