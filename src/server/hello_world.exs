@@ -164,3 +164,6 @@ simple_map = %{ :a => 5, 2 => :b}
 IO.puts simple_map[:a]
 IO.puts simple_map[2]
 IO.puts simple_map[:c] == nil
+
+better_map = %{ :a => 65, :b => 8, :c => 98 }
+IO.puts Map.get(better_map, :a)
