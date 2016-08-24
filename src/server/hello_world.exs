@@ -64,3 +64,6 @@ IO.puts c
 [head | tail] = [ 6, 7, 1 ]
 IO.puts head
 IO.puts hd(tail)
+
+y = 1
+IO.puts ^y = 2
