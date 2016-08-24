@@ -153,3 +153,9 @@ IO.puts list_tuples == list_tuples_simple
 
 big_list = list_tuples ++ [c: 7, d: 9]
 IO.puts big_list[:d]
+
+first = if false, do: :this, else: :that
+IO.puts first
+
+second = if(false, [do: :this, else: :that])
+IO.puts second
