@@ -84,3 +84,10 @@ case 4 do
     _ -> 
         IO.puts "Matched _"
 end
+
+case {1, 2, 3} do
+    {1, x, 3} when x > 0 ->
+        IO.puts "Matched {1, x, 3} when x > 0"
+    _ ->
+        IO.puts "Matched _"
+end
