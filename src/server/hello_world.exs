@@ -47,4 +47,8 @@ IO.puts 1 < :something
 
 x = 1
 IO.puts 1 = x
-IO.puts 2 = x
+
+{ a, b, c } = {"Hello", "World", "!" }
+IO.puts a
+IO.puts b
+IO.puts c
