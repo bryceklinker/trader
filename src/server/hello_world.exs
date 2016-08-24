@@ -107,3 +107,7 @@ cond do
     1 + 1 == 2 ->
         IO.puts "Matched cond 1 + 1 == 2"
 end
+
+IO.puts is_number(if true do
+    1 + 2 
+end)
