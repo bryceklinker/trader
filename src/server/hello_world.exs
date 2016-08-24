@@ -167,3 +167,4 @@ IO.puts simple_map[:c] == nil
 
 better_map = %{ :a => 65, :b => 8, :c => 98 }
 IO.puts Map.get(better_map, :a)
+IO.puts better_map.c
