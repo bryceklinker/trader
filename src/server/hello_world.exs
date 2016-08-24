@@ -67,3 +67,12 @@ IO.puts hd(tail)
 
 [h | _] = [2, 3, 7, 9]
 IO.puts h
+
+case {1, 2, 3} do
+    {4, 5, 6} ->
+        IO.puts "Matched {4, 5, 6}"
+    {1, x, 3} ->
+        IO.puts "Matched {1, x, 3}"
+    _ ->
+        IO.puts "Matched _"
+end
