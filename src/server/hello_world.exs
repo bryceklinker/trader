@@ -91,3 +91,11 @@ case {1, 2, 3} do
     _ ->
         IO.puts "Matched _"
 end
+
+f = fn
+    x, y when x > 0 -> x + y
+    x, y -> x * y
+end
+
+IO.puts f.(6, 4)
+IO.puts f.(-1, 5)
