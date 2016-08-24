@@ -9,3 +9,5 @@ IO.puts :hello == :world
 IO.puts is_function(add)
 
 IO.puts add.(4, 5)
+
+IO.puts length [1, 2, 3]
