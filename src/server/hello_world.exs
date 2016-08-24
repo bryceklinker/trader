@@ -56,4 +56,7 @@ IO.puts c
 { :ok, result } = { :ok, 15}
 IO.puts result
 
-{ :ok, result } = { :error, "Something happened" }
+[ a, b, c ] = [ 5, 7, 2 ]
+IO.puts a
+IO.puts b
+IO.puts c
