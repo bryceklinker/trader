@@ -140,3 +140,7 @@ IO.puts x
 
 "he" <> rest = "hello"
 IO.puts rest
+
+hello_chars = 'Hello'
+IO.puts hello_chars
+IO.puts is_list(hello_chars)
