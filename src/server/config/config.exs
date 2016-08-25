@@ -5,14 +5,10 @@
 # is restricted to this project.
 use Mix.Config
 
-# General application configuration
-config :server,
-  ecto_repos: [Server.Repo]
-
 # Configures the endpoint
 config :server, Server.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "CTMM47L4C4SUJ9S7ji9QCDraByqqReMgXiBTzAeyt59U+rQahajv0LITgFO4oJnz",
+  secret_key_base: "GbKkUSthoX/O1R66gL5wtcRm64eBfd3mDTv7y5HMbDYF2XGL86IdfrnKp6IgRhxx",
   render_errors: [view: Server.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Server.PubSub,
            adapter: Phoenix.PubSub.PG2]
